@@ -1,0 +1,15 @@
+main
+Input preasure for node 1 : 10
+waterPipes("water4720")
+Input preasure for node 1 : 34
+Input preasure for node 2 : 40
+Input preasure for node 3 : 34
+Average preassure is: 
+19.837256
+Press return to enter new values, any other key to abortInput preasure for node 1 : 34
+Input preasure for node 2 : 40
+Input preasure for node 3 : 35
+Average preassure is: 
+20.016389
+Press return to enter new values, any other key to abortq
+diary

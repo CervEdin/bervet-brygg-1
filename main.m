@@ -1,4 +1,4 @@
-p1 = 10;
+p1 = input('Input preasure for node 1 : ');
 
 row1 = [+1.0, +0.0, +0.0, +0.0, +0.0, +0.0];
 row2 = [+0.3, -1.3, +0.5, +0.5, +0.0, +0.0];
@@ -12,5 +12,7 @@ b = [p1; 0; 0; 0; 0; 0];
 
 x = A\b;
 
-bar(x, 'G');
-title("solution");
+bar(x, 'B');
+xlabel('Node number')
+ylabel('Pressure (bar) ')
+title("Water pressure at different nodes in the network");
